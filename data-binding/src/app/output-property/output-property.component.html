@@ -1,0 +1,6 @@
+<div>
+    <button class="btn btn-primary" (click)="decrementa()">-</button>
+    <!-- Quando não se usa o two way data binding [(ngModel)], chamamos de property data binding. Ex: [value]-->
+    <input type="text" [value]="valor" readonly #campoInput/>
+    <button class="btn btn-primary" (click)="incrementa()">+</button>
+</div>
